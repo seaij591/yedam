@@ -1,12 +1,12 @@
 package com.yedam.java.example;
 
-public class Gread {
+public class Grade {
 
 	int math;
 	int science;
 	int english;
 
-	Gread(int math, int science, int english) {
+	Grade(int math, int science, int english) {
 		this.math = math;
 		this.science = science;
 		this.english = english;
@@ -16,3 +16,4 @@ public class Gread {
 		return (this.math + this.science + this.english) / 3.0;
 	}
 }
+

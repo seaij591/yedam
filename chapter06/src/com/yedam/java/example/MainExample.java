@@ -38,7 +38,7 @@ public class MainExample {
 		int math = scanner.nextInt();
 		int science = scanner.nextInt();
 		int english = scanner.nextInt();
-		Gread myGrade = new Gread(math, science, english);
+		Grade myGrade = new Grade(math, science, english);
 		//average() 메서드는 평균을 계산하여 리턴
 		System.out.println("평균 : " + myGrade.average());
 	}
